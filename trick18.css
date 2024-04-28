@@ -1,0 +1,82 @@
+/* trick18.css */
+
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #252525;
+  color: #333;
+  line-height: 1.6;
+  cursor: pointer;
+
+}
+
+/* Container styling */
+div {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #8EC5FC;
+/* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  border-radius: 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Title styling */
+strong {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin:  0 50px;
+}
+
+/* List styling */
+ul {
+  margin-bottom: 20px;
+  margin: 0 50px;
+  color: #333;
+  font-size: 22px;
+}
+
+li {
+  margin-bottom: 5px;
+  margin: 0 10px;
+  list-style: circle;
+  
+}
+
+/* Semantic tags styling */
+.ul li {
+  font-style: italic;
+  color:#007bff ;
+  list-style: circle;
+}
+
+/* Non-semantic tags styling */
+ul:nth-child(2) li {
+  font-style: normal;
+  color: green;
+  font-size: 18px;
+}
+
+
+
+.ul p a{
+  text-decoration: none !important;
+  color:green;
+}
+
+.ul p a:hover{
+  text-decoration: none !important;
+  color:#007bff;
+}
+.ul p a:visited{
+  text-decoration: none !important;
+  color:red;
+}
